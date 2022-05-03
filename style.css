@@ -1,0 +1,94 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*margin-left: calc(100vw - 100%);*/
+  overflow-y: scroll;
+}
+
+body {
+  font: 16px sans-serif;
+  color: #555;
+  line-height: 1.3;
+}
+
+h1 {
+  padding: 2em 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 1ch;
+  line-height: 1.5;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+main, table, address {
+  max-width: 80ch;
+  padding: 2ch;
+  margin: auto;
+  font-style: normal;
+}
+
+section {
+  display: none;
+  padding: 1ch 0 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#content3 {
+  text-align: center;
+}
+
+footer {
+  margin-top: 2ch;
+  text-align: center;
+  font-size: 85%;
+}
+
+input {
+  display: none;
+}
+
+label {  
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 1em 2em;
+  font-weight: 600;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  label {
+    display: block;
+    text-align: center;
+  }
+}

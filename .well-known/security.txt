@@ -1,0 +1,19 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Canonical URL
+Canonical: https://www.veterinanmnm.cz/.well-known/security.txt
+
+# Our security addresses
+Contact: mailto:rhubinak@tuta.io
+Contact: mailto:security@apex.ac
+
+# Our OpenPGP key
+Encryption: https://keys.openpgp.org/pks/lookup?op=get&options=mr&search=0x689579C156CC649BF4E59CF020EBE367179E7610
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRolXnBVsxkm/TlnPAg6+NnF552EAUCYnGh3AAKCRAg6+NnF552
+EFT0AP4qiupHPeCek9s0Ky9iZsy+8lEHUa5Yb95w4Wqpz6xDNAEAlnmJ83x7LaBq
+rAoYLUorqzqSEdnOl0Q157YbIuEg1ww=
+=EI9D
+-----END PGP SIGNATURE-----
